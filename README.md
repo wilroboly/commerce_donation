@@ -1,5 +1,5 @@
-# donation_example
-Donation example for Commerce 2.x
+# commerce_donatio
+Commerce Donation module for Commerce 2.x
 
 This module contains:
 - An export of the described order item type, fields.
@@ -27,7 +27,7 @@ It will contain fields for all relevant data.
 
 Go to *admin/commerce/config/order-item-types* and click 'Add order item type'.
 
-![Add order item type form](https://github.com/bojanz/donation_example/blob/master/add-order-item-type.png?raw=true)
+![Add order item type form](https://github.com/bojanz/commerce_donation/blob/master/add-order-item-type.png?raw=true)
 
 Then go to the "Manage fields" screen and define the needed fields:
 - Frequency (List - text)
@@ -52,17 +52,17 @@ Download and install the 8.x-1.x-dev version.
 
 Donation block
 --------------
-Donations are created via the [donation block](https://github.com/bojanz/donation_example/blob/master/src/Plugin/Block/DonationBlock.php). There can be multiple instances of the donation block, shown on different pages. That means that the block is a good place to put settings on, for example the predefined amounts that will be offerred.
+Donations are created via the [donation block](https://github.com/bojanz/commerce_donation/blob/master/src/Plugin/Block/DonationBlock.php). There can be multiple instances of the donation block, shown on different pages. That means that the block is a good place to put settings on, for example the predefined amounts that will be offerred.
 
-The donation block renders the [donation form](https://github.com/bojanz/donation_example/blob/master/src/Form/DonationForm.php) and optionally passes data to it (any settings, for example). The form is simple, it collects the needed information and then uses it to create an order item and add it to the cart.
+The donation block renders the [donation form](https://github.com/bojanz/commerce_donation/blob/master/src/Form/DonationForm.php) and optionally passes data to it (any settings, for example). The form is simple, it collects the needed information and then uses it to create an order item and add it to the cart.
 
 Donation checkout pane
 ----------------------
-The [checkout pane](https://github.com/bojanz/donation_example/blob/master/src/Plugin/Commerce/CheckoutPane/Donation.php) creates (and keeps up to date) a donation order item.
+The [checkout pane](https://github.com/bojanz/commerce_donation/blob/master/src/Plugin/Commerce/CheckoutPane/Donation.php) creates (and keeps up to date) a donation order item.
 
 Recurring
 ---------
-Recurring donations will be handled via custom code. This code will be triggered when the order is placed, by responding to the commerce_order.place.post_transition event. See the [event subscriber](https://github.com/bojanz/donation_example/blob/master/src/EventSubscriber/OrderSubscriber.php). 
+Recurring donations will be handled via custom code. This code will be triggered when the order is placed, by responding to the commerce_order.place.post_transition event. See the [event subscriber](https://github.com/bojanz/commerce_donation/blob/master/src/EventSubscriber/OrderSubscriber.php). 
 
 Notes
 -----

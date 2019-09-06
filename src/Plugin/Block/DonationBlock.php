@@ -1,11 +1,11 @@
 <?php
 
-namespace Drupal\donation_example\Plugin\Block;
+namespace Drupal\commerce_donation\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormBuilderInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\donation_example\Form\DonationForm;
+use Drupal\commerce_donation\Form\DonationForm;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

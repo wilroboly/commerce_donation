@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\donation_example\Form;
+namespace Drupal\commerce_donation\Form;
 
 use Drupal\commerce_cart\CartManagerInterface;
 use Drupal\commerce_cart\CartProviderInterface;

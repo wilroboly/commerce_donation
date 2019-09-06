@@ -1,0 +1,5 @@
+services:
+  commerce_donation.order_subscriber:
+    class: Drupal\commerce_donation\EventSubscriber\OrderSubscriber
+    tags:
+      - { name: event_subscriber }

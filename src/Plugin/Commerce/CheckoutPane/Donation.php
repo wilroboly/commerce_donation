@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\donation_example\Plugin\Commerce\CheckoutPane;
+namespace Drupal\commerce_donation\Plugin\Commerce\CheckoutPane;
 
 use Drupal\commerce_checkout\Plugin\Commerce\CheckoutPane\CheckoutPaneBase;
 use Drupal\commerce_checkout\Plugin\Commerce\CheckoutPane\CheckoutPaneInterface;

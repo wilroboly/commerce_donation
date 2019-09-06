@@ -1,6 +1,6 @@
-name: Donation example
+name: Commerce Donation
 type: module
-description: 'Provides a donation example.'
+description: 'Provides a donation function.'
 package: Commerce (contrib)
 core: 8.x
 dependencies:

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\donation_example\EventSubscriber;
+namespace Drupal\commerce_donation\EventSubscriber;
 
 use Drupal\state_machine\Event\WorkflowTransitionEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
