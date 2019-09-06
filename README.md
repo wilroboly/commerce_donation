@@ -1,4 +1,4 @@
-# commerce_donatio
+# commerce_donation
 Commerce Donation module for Commerce 2.x
 
 This module contains:
