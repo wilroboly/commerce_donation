@@ -8,6 +8,12 @@ This module contains:
 
 Note that for explicitness and clarity the block and checkout pane contain duplicate code. This code can be unified through a shared trait.
 
+Thank You
+---------
+
+Big thank you and shout out to bojanz for the work they did on this example to commerce module.
+
+
 Requirements
 ------------
 - Accept donations on a content page and on checkout
